@@ -1,0 +1,27 @@
+body {
+
+    background-color: #444444
+}
+header {
+
+    color: black;
+    font-size: 35px;
+    background-color: grey;
+    font-family: verdana;
+    margin-right: 1500px;
+    text-align: center;
+    padding: 45px;
+    border: 10px solid lightslategrey;
+    border-radius: 25px;
+}
+
+form {
+
+    background-color: grey;
+    font-size: 35px;
+    font-family: verdana;
+    border: 10px solid lightslategrey;
+    border-radius: 25px;
+    margin-top: 50px;
+
+}

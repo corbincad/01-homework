@@ -17,7 +17,7 @@ header {
     font-family: verdana;
     padding-left: 16%;
     box-shadow: 5px 5px black;
-    text-shadow: 5px 5px black;
+    text-shadow: 5px 5px black ;
     letter-spacing: 3px; 
 }
 
@@ -32,7 +32,7 @@ h2 {
     border-radius: 30px;
     box-shadow: 5px 5px black;
     margin-right: 15px;
-    text-shadow: 1px 1px black;
+    text-shadow: 1.5px 1.5px black;
 } 
 
 p {
@@ -42,8 +42,9 @@ p {
     padding: 70px;
     border-radius: 150px;
     font-size: 29.5px;
-    font-family: verdana;
+    font-family: 'Titillium Web', sans-serif;
     letter-spacing: 2px;
+    line-height: 50px;
 }
 
 ul {
@@ -54,8 +55,13 @@ ul {
 
 li {
 
-    padding: 20px;
+    margin-right: 200x;
     display: inline;
+}
+
+#portfolio {
+
+    margin-left: 500px;
 }
 
 img {
@@ -66,9 +72,15 @@ img {
     border-radius: 30px;
 }
 
+img:hover {
+
+    height: 600px;
+    border: 10px solid blue;
+}
+
 a {
 
-    padding: 300px;
+    padding: 0px;
     font-size: 50px;
     color: black;
 }
@@ -81,4 +93,14 @@ a:hover {
 footer {
 
     background-color: black;
+}
+
+#contact {
+
+    padding-left: 500px;
+}
+
+#github {
+
+    padding-left: 50px;
 }
