@@ -8,6 +8,9 @@ h {
     background-color: white;
     font-size: 50px;
     padding: 25px;
+    border-radius: 25px;
+    margin: 50px;
+    paddings-top: 50px;
     
 }
 
